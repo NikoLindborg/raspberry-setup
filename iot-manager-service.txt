@@ -1,7 +1,7 @@
 //file = startup.service location= /etc/systemd/system
 
 [Unit]
-Description=startup Service
+Description=startup-Service
 Requires=network.target
 Wants=network-online.target
 
